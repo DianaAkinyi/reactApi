@@ -44,7 +44,7 @@ const Add = ({ handleNewProduct }) => {
               onChange={(e) => setPrice(e.target.value)}
             />
           </div>
-          <div className="form-group">
+          <div className="first-form">
             <label htmlFor="discount">Discount:</label>
             <input
               type="number"

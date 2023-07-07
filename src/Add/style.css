@@ -2,7 +2,7 @@
     width: 40%;
     margin: 0 auto;
 }
-.form-group >input{
+.first-form >input{
     padding: 12px 16px;
     width: 30%;
     border: solid 1px rgb(247, 184, 184);
@@ -10,7 +10,7 @@
     margin-left: 27%;
     margin-bottom: 3%;
 }
-.form-group > button{
+.first-form> button{
     border: none;
     border-radius: 5px;
     background-color: rgb(68, 151, 68);
