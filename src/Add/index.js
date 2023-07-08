@@ -26,7 +26,7 @@ const Add = ({ handleNewProduct }) => {
       <div className="form-wrapper">
         <h2>Add New Product</h2>
         <form onSubmit={handleSubmit}>
-          <div className="form-group">
+          <div className="first-form">
             <label htmlFor="title">Title:</label>
             <input
               type="text"
@@ -35,7 +35,7 @@ const Add = ({ handleNewProduct }) => {
               onChange={(e) => setTitle(e.target.value)}
             />
           </div>
-          <div className="form-group">
+          <div className="first-form">
             <label htmlFor="price">Price:</label>
             <input
               type="number"
